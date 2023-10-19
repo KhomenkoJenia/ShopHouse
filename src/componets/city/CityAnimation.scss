@@ -1,0 +1,59 @@
+.container-rain {
+  z-index: 100;
+  padding: 40px;
+  background-color: rgb(204, 203, 210);
+  border-radius: 16px;
+  h2 + div {
+    border-top: none;
+    margin-top: 50px;
+
+    h2 {
+      font-size: 30px;
+    }
+  }
+
+  .mainbox {
+    max-width: 1440px;
+    min-height: 164px;
+    background: url(../../assets/img/kharkiv.png) center no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    &:hover {
+      transform-box: fill-box;
+      animation: city_move 12s linear infinite;
+
+      box-shadow: 0 0 40px rgb(218, 234, 233);
+      transition: 0.9s;
+    }
+
+    h3 {
+      line-height: 42px;
+      font-size: 30px;
+      color: rgba(197, 192, 192, 0.906);
+      margin-left: 3rem;
+    }
+  }
+  .kyiv {
+    background: url(../../assets/img/kyiv.png) center no-repeat;
+  }
+  .odessa {
+    background: url(../../assets/img/odesa.png) center no-repeat;
+  }
+  .lviv {
+    background: url(../../assets/img/lviv.png) center no-repeat;
+  }
+  @keyframes city_move {
+    0% {
+      background-position-y: 0;
+    }
+    50% {
+      background-position-y: 100%;
+    }
+    100% {
+      background-position-y: 0;
+    }
+  }
+}
