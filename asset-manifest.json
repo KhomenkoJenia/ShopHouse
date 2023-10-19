@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ShopHouse/static/css/main.c916c07a.css",
+    "main.js": "/ShopHouse/static/js/main.2b4a09eb.js",
+    "static/media/odesa.png": "/ShopHouse/static/media/odesa.4fc46a00c25920824348.png",
+    "static/media/kyiv.png": "/ShopHouse/static/media/kyiv.71d9a39bba903ae34d97.png",
+    "static/media/kharkiv.png": "/ShopHouse/static/media/kharkiv.0220518300552d1b0288.png",
+    "static/media/lviv.png": "/ShopHouse/static/media/lviv.3d1a5f8be5881c2f2077.png",
+    "static/media/bg.png": "/ShopHouse/static/media/bg.09a7b9a43407559ed642.png",
+    "index.html": "/ShopHouse/index.html",
+    "main.c916c07a.css.map": "/ShopHouse/static/css/main.c916c07a.css.map",
+    "main.2b4a09eb.js.map": "/ShopHouse/static/js/main.2b4a09eb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c916c07a.css",
+    "static/js/main.2b4a09eb.js"
+  ]
+}
